@@ -9,7 +9,7 @@ module PRMS_FILE_IO_NETCDF
 
   type, extends(FileIO) :: FileIO_netcdf
     character(len=:), allocatable :: override_dir
-    type(list) :: override_list
+    ! type(list) :: override_list
 
 
     contains
